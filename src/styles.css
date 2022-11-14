@@ -310,23 +310,23 @@ body{
    text-align: center;
    background-color: #4e4e4e;
    color: white;
-   margin-top: 2rem;
+   margin-top: 1rem;
    margin-right: 1rem;
    font-weight:200 ;
 }
 
 .contra_ ul{
-   margin-top: 5rem;
+   margin-top: 1rem;
 }
 
- li{
+ li
    list-style: none;
    padding: 10px;
  }
 
 .benefits{
    flex: 1;
-   font-size: 36px;
+   font-size: 30px;
    text-align: center;
    background-color:#4e4e4e;
    color: white;

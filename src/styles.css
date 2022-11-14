@@ -27,11 +27,6 @@ body{
 	left: 0;
 	background: rgba(0,0,0,0.4);
 }
-.navbar .logo{
-	width: 140px;
-	height: auto;
-	padding: 20px 100px;
-}
 .navbar ul{
 	float: right;
 	margin-right: 20px;
@@ -92,9 +87,9 @@ body{
 }
 
 .center p{
-   margin: 2rem;
-   width: inherit;
-   font-size: 35px;
+   margin: auto;
+   width: 80%;
+   font-size: 30px;
    font-style: italic;
    color: rgb(255, 255, 255);
    text-align: center;
@@ -156,17 +151,17 @@ body{
 }
 
 .treat_img{
-   margin: 0;
+   margin: 5px;
    padding: 0;
    margin-top: 10px;
-   width: 475px;
+   width: 309px;
    height: 250px;
    object-fit: fill;
 }
 
 .demadry_container{
    width: 100%;
-   background-color: #0a2861;
+   background-color: #4e4e4e;
    color: white;
 }
 
@@ -183,25 +178,25 @@ body{
    font-weight: 300;
    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
    margin: 2rem;
-   margin-top: 6rem;
-   font-size: 4rem;
+   margin-top: 4rem;
+   font-size: 3rem;
    text-align: center;
 }
 
 .dermadry p{
    text-align: justify;
-   width:65%;
-   font-size: 35px;
+   width:90%;
+   font-size: 28px;
    margin: auto;
    margin-top: 3rem;
    font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
    line-height: 35px;
    font-weight: 100;
-   margin-top: 7rem;
+   padding: 15px;
 }
 
 .devices{
-   width: fit-content;
+   width: 550px;
    height:fit-content;
    object-fit: fill;
    box-shadow: 4px 2px 9px rgba(0,0,0,0.85);
@@ -218,7 +213,7 @@ body{
 
 .condition h1{
    text-transform: uppercase;
-   font-size: 4rem;
+   font-size: 3rem;
    text-align: center;
    margin: 3rem;
    font-weight: 200;
@@ -226,7 +221,7 @@ body{
 }
 
 .condiInfo p{
-   font-size: 2rem;
+   font-size: 1.8rem;
    text-align: center;
    margin-top: 1rem;
    font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -249,7 +244,7 @@ body{
 
 
 .solution{
-   background-color: #359cb6;
+   background-color: #3e739b;
    width: 100%;
    text-align: center;
    display: flex;
@@ -273,24 +268,27 @@ body{
 .intro{
    text-align: center;
    margin: auto;
-   font-size: 35px;
+   font-size: 28px;
    margin-bottom: 1rem;
    font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
    font-weight: 100;
 }
 
 .solutionpic{
-   width: 700px;
-   height: 550px;
-   margin: 5rem;
+   width: 500px;
+   height:500px;
+   margin: auto;
    border: none;
    box-shadow: 4px 2px 9px rgba(0,0,0,0.85);
 }
 
 .solu{
-margin: 5rem;
-font-size: 2rem;
-text-align: justify;
+   height: inherit;
+   width: 65%;
+   margin: auto;
+   font-size: 1.6rem;
+   text-align: justify;
+   padding: 25px;
 }
 
 .benfits_cont{
@@ -310,15 +308,15 @@ text-align: justify;
    flex: 1;
    font-size: 36px;
    text-align: center;
-   border-bottom-left-radius: 25px;
-   border-bottom-right-radius: 25px;
-   border-top-left-radius: 25px;
-   border-top-right-radius: 25px;
-   background-color: #0a2861;
+   background-color: #4e4e4e;
    color: white;
    margin-top: 2rem;
    margin-right: 1rem;
    font-weight:200 ;
+}
+
+.contra_ ul{
+   margin-top: 5rem;
 }
 
  li{
@@ -330,11 +328,7 @@ text-align: justify;
    flex: 1;
    font-size: 36px;
    text-align: center;
-   border-bottom-left-radius: 25px;
-   border-bottom-right-radius: 25px;
-   border-top-left-radius: 25px;
-   border-top-right-radius: 25px;
-   background-color: #0a2861;
+   background-color:#4e4e4e;
    color: white;
    margin-top: 2rem;
 }
@@ -484,7 +478,7 @@ textarea{
 .contact-in p {
    color: white;
 	font-size: 1.8rem;
-	font-weight: 400;
+	font-weight: 500;
 	margin-bottom: 20px;
 }
 

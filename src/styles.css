@@ -319,7 +319,7 @@ body{
    margin-top: 1rem;
 }
 
- li
+ li{
    list-style: none;
    padding: 10px;
  }
